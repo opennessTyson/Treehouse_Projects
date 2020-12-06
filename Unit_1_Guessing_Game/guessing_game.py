@@ -21,7 +21,7 @@ def start_game():
                 attempts += 1
             elif guess == random_number:                 
                 print("Got it")
-                print("You are too good. Game over in ",attempts)
+                print("You are too good. Game over in {} attempts. ".format(attempts))
     while True:
         if guess == random_number:
                 play_again = input("Would you like to play again? Y/N?")
